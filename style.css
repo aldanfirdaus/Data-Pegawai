@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    top: 50px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.atas .tambah{
+    padding: 5px;
+    margin-left: 5%;
+    width: 60px;
+    background-color: rgba(35, 35, 213, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.atas .tambah a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.atas .tambah:hover{
+    background-color: rgba(35, 35, 213, 0.5);
+}
+
+.atas{
+    display: flex;
+    top: 100px;
+    width: 100%;
+    position: absolute;
+}
+.atas .form{
+    position: absolute;
+    right: 5%;
+}
+.atas .form input{
+    width: 380px;
+    border-color: rgb(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    height: 25px;
+}
+.atas .form button{
+    padding: 5px;
+    width: 40px;
+    background-color: rgba(35, 35, 213, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.table{
+    /* top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    border-collapse: collapse;
+    width: 90%;
+    color: #444;
+    border: 1px solid #f2f5f7;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    padding: 8px 20px;
+}
+.table tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+.table tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.table tr .aksi .edit{
+    padding: 3px;
+    width: 30px;
+    margin-right: 5px;
+    background-color: rgba(45, 45, 233, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.table tr .aksi .edit a{
+    color: white;
+    text-decoration: none;
+}
+.table tr .aksi .hapus a{
+    color: white;
+    text-decoration: none;
+}
+.table tr .aksi{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12;
+}
+.table tr .aksi .hapus{
+    padding: 3px;
+    width: 40px;
+    margin-left: 5px;
+    background-color: rgba(243, 17, 17, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+/* tambah.php */
+.cont_tambah{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.kembali {
+    padding: 5px;
+    width: 60px;
+    margin-top: 90px;
+    background-color: rgba(35, 35, 213, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.kembali a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.kembali:hover{
+    background-color: rgba(35, 35, 213, 0.5);
+}
+.cont_form{
+    margin-top: 30px ;
+    display: flex;
+    list-style: none;
+}
+.cont_form .cont_form_tambah ul li{
+    list-style: none;
+}
+.cont_form .cont_form_tambah ul .label{
+    font-weight: bolder;
+}
+.cont_form .cont_form_tambah ul div li button{
+    font-weight: normal;
+    padding: 7px;
+}
+.cont_form .cont_form_tambah ul div{
+    flex-direction: column;
+    list-style: none;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.cont_form .cont_form_tambah ul div li input{
+    width: 400px;
+    border-color: rgb(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    height: 30px;
+}
+.cont_form .cont_form_tambah ul div li input:hover{
+    border-color: rgba(44, 44, 214, 0.761);
+}
